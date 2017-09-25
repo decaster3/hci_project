@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Siri
 //
-//  Created by Sahand Edrisian on 7/14/16.
-//  Copyright © 2016 Sahand Edrisian. All rights reserved.
+//  Created by Rinat Khatipov.
+//  
 //
 
 import UIKit

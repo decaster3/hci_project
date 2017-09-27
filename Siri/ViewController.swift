@@ -23,8 +23,8 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     private var recognitionTask: SFSpeechRecognitionTask?
     private let audioEngine = AVAudioEngine()
-    let dict: [String] = ["Fuck", "fuck","fucking","dick","whore","suck","asshole","sissy","cunt","cocksucker","shit", "sheet", "prick", "cock", "penis", "condom", "bullshit", "virgin", "ass", "stupid", "bastard", "crap"]
-    
+    let dict: [String] = ["stupid", "shit", "sheet" , "fuck", "Fuck", "bullshit"]
+    //"Fuck", "fuck","fucking","dick","whore","suck","asshole","sissy","cunt","cocksucker","shit", "sheet", "prick", "cock", "penis", "condom", "bullshit", "virgin", "ass", "stupid", "bastard", "crap"
 	override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -117,7 +117,8 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
             
             if result != nil {
             let arr = result?.bestTranscription.formattedString.components(separatedBy: " " )
-                if (self.cont(arr1: arr!,arr2: self.dict)){
+                
+                if (self.cont(arr1: arr!, arr2: self.dict)){
                     print("STOP")
                     
                     self.peep()

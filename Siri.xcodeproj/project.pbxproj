@@ -12,7 +12,7 @@
 		805027F01D389E5700CE3F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805027EE1D389E5700CE3F1F /* Main.storyboard */; };
 		805027F21D389E5700CE3F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805027F11D389E5700CE3F1F /* Assets.xcassets */; };
 		805027F51D389E5700CE3F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805027F31D389E5700CE3F1F /* LaunchScreen.storyboard */; };
-		D806FFE11F71364500F36ED6 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D806FFE01F71364500F36ED6 /* sound.mp3 */; };
+		D85557A71F797AA4001C9B78 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D85557A61F797AA4001C9B78 /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		805027F11D389E5700CE3F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		805027F41D389E5700CE3F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		805027F61D389E5700CE3F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D806FFE01F71364500F36ED6 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound.mp3; path = ../../sound.mp3; sourceTree = "<group>"; };
+		D85557A61F797AA4001C9B78 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound.mp3; path = ../../../../Downloads/sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 				805027EC1D389E5700CE3F1F /* ViewController.swift */,
 				805027EE1D389E5700CE3F1F /* Main.storyboard */,
 				805027F11D389E5700CE3F1F /* Assets.xcassets */,
-				D806FFE01F71364500F36ED6 /* sound.mp3 */,
+				D85557A61F797AA4001C9B78 /* sound.mp3 */,
 				805027F31D389E5700CE3F1F /* LaunchScreen.storyboard */,
 				805027F61D389E5700CE3F1F /* Info.plist */,
 			);
@@ -131,7 +131,7 @@
 				805027F51D389E5700CE3F1F /* LaunchScreen.storyboard in Resources */,
 				805027F21D389E5700CE3F1F /* Assets.xcassets in Resources */,
 				805027F01D389E5700CE3F1F /* Main.storyboard in Resources */,
-				D806FFE11F71364500F36ED6 /* sound.mp3 in Resources */,
+				D85557A71F797AA4001C9B78 /* sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
